@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc857cf6-de70-4c4f-a413-1090c3de2115" name="Changes" comment="fix: docker-compose.yml">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="dc857cf6-de70-4c4f-a413-1090c3de2115" name="Changes" comment="fix: cicd">
       <change beforePath="$PROJECT_DIR$/back" beforeDir="false" afterPath="$PROJECT_DIR$/back" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front" beforeDir="false" afterPath="$PROJECT_DIR$/front" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +28,20 @@
     </key>
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="fix: cicd">
+      <option name="closed" value="true" />
+      <created>1739446034950</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739446034950</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix: docker-compose.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: docker-compose.yml" />
+    <MESSAGE value="fix: cicd" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: cicd" />
   </component>
 </project>
