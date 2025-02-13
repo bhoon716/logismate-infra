@@ -1,24 +1,22 @@
 version: '3.8'
 services:
-  # 백엔드
   backend:
     build:
       context: ./back
       dockerfile: Dockerfile
     container_name: backend
     expose:
-      - "8080"   # 내부 통신용
+      - "8080"
     networks:
       - app-network
 
-  # 프론트 + Nginx
   frontend:
     build:
-      context: .
-      dockerfile: front/Dockerfile
+      context: ./front
+      dockerfile: Dockerfile
     container_name: frontend
     ports:
-      - "80:80"  # 외부 공개 포트
+      - "80:80"
     depends_on:
       - backend
     networks:
