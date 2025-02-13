@@ -14,8 +14,8 @@ services:
   # 프론트 + Nginx
   frontend:
     build:
-      context: ./front
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: front/Dockerfile
     container_name: frontend
     ports:
       - "80:80"  # 외부 공개 포트
