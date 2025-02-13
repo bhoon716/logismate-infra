@@ -1,0 +1,6 @@
+[submodule "back"]
+	path = back
+	url = https://github.com/bhoon716/logismate-back.git
+[submodule "front"]
+	path = front
+	url = https://github.com/heychi/RootImpact.git
